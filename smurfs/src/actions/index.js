@@ -5,7 +5,7 @@ export const FETCHING_SUCCESS = "FETCHING_SUCCESS"
 export const FETCHING_FAILED = "FETCHING_FAILED"
 
 export const ADD_SMURF = "ADD_SMURF"
-export const ADD_SMURF_SUCESS = "ADD_SMURF_SUCCESS"
+export const ADD_SMURF_SUCCESS = "ADD_SMURF_SUCCESS"
 export const ADD_SMURF_FAILED = "ADD_SMURF_FAILED"
 export const getSmurfs = () => dispatch => {
     dispatch({type: FETCHING})
